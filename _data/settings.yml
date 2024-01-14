@@ -27,8 +27,6 @@ publication:
     topics:
       - {name: 'All',            id: 'all',  description: ''}
       - {name: "XAI",            id: 'xai',  description: '' }
-      - {name: 'Deep Learning',  id: 'dl',   description: ''}
-      - {name: 'GAN',            id: 'gan',  description: ''}
       - {name: 'Other',          id: 'misc', description: ''}
     default_img: "/assets/publications/placeholder.png"
     tag_list: 
