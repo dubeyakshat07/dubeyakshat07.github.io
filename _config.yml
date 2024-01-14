@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Avalanche
+title: Akshat Dubey
 description: >
   Avalanche is a research portfolio website template based on Jekyll and bulma.
 baseurl: "/avalanche" # the subpath of your site, e.g. /blog
-url: "https://lolipopshock.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://dubeyakshat07.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
