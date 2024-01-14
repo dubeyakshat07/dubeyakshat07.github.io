@@ -16,7 +16,7 @@ social:
 - {name: 'twitter', icon: 'fab fa-twitter-square', link: 'https://twitter.com/AKSHATD00099862', 
    display-link: '@AKSHATD00099862', display-icon: "fab fa-twitter-square"}
 - {name: 'twitter', icon: 'ai-google-scholar-square', link: 'https://www.linkedin.com/in/akshat0007/', 
-   display-link: '', display-icon: "ai-google-scholar-square"}
+   display-link: 'Linkedin', display-icon: "ai-google-scholar-square"}
 
 publication: 
     types:
