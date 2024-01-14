@@ -15,8 +15,8 @@ social:
    display-link: 'Github', display-icon: "fab fa-github-square"}
 - {name: 'twitter', icon: 'fab fa-twitter-square', link: 'https://twitter.com/AKSHATD00099862', 
    display-link: '@AKSHATD00099862', display-icon: "fab fa-twitter-square"}
-- {name: 'twitter', icon: 'https://static.vecteezy.com/system/resources/previews/018/930/587/original/linkedin-logo-linkedin-icon-transparent-free-png.png', link: 'https://www.linkedin.com/in/akshat0007/', 
-   display-link: '', display-icon: "https://static.vecteezy.com/system/resources/previews/018/930/587/original/linkedin-logo-linkedin-icon-transparent-free-png.png"}
+- {name: 'twitter', icon: 'ai-google-scholar-square', link: 'https://www.linkedin.com/in/akshat0007/', 
+   display-link: '', display-icon: "ai-google-scholar-square"}
 
 publication: 
     types:
