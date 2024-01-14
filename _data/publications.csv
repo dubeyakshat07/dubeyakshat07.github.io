@@ -1,2 +1,2 @@
 type,topic,name,author,title,venue,publisher,paper,img,website,arxiv,poster,video
-workshop,dl,DL,"LeCun, Yann and Bengio, Yoshua and Hinton, Geoffrey",Deep Learning,,Nature Publishing Group,https://www.nature.com/articles/nature14539,/assets/publications/placeholder.png,,,,
+journal,other,misc,"Ashkan Dehghan, Kinga Siuta, Agata Skorupka, Akshat Dubey, Andrei Betlen, David Miller, Wei Xu, Bogumił Kamiński, Paweł Prałat",Detecting bots in social-networks using node and structural embeddings,,"Journal of Big Data 10 (1), 119",https://link.springer.com/article/10.1186/s40537-023-00796-3,/assets/publications/placeholder.png,,,,
