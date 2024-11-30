@@ -28,7 +28,7 @@ title: News
 </nav>
 <div class="is-divider" style="margin-top: 0.45rem; margin-bottom: 1.5rem;"></div>
 
-<h2>Blog Posts</h2>
+<h2>News Updates</h2>
 {% for post in paginator.posts %}
 <div class="columns">
     <div class="column is-9">
@@ -54,11 +54,13 @@ title: News
 <div class="is-divider" style="margin-top: 2rem; margin-bottom: 1.5rem;"></div>
 
 <h2>News</h2>
-<ul>
-    {% for row in site.data.news %}
+<ol>
+    {% assign sorted_news = site.data.news | sort: "highlight" | reverse %}
+    {% for row in sorted_news %}
     <li>
-        <strong>{{ row.title }}</strong> - {{ row.date }}<br>
-        {{ row.description }}
+        <strong>{{ row.title }}</strong> <br>
+        <em>{{ row.time }}</em><br>
+        {{ row.highlight }}
     </li>
     {% endfor %}
-</ul>
+</ol>
