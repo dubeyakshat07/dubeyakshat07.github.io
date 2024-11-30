@@ -5,43 +5,21 @@ pagination:
 title: News
 ---
 
-<h2>News Updates</h2>
-{% for post in paginator.posts %}
-<div class="columns">
-    <div class="column is-9">
-        <div class="content">
-
-            <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
-                <h3 class="article-list-title">{{ post.title }}</h3>
-            </a>
-            <div class="article-list-description">
-                <p>
-                    {{ post.description }}
-                </p>
-            </div>
-            {% include article/info-footer.html post=post %}
+<div class="content">
+    <h3 class="title">Recent News</h3>
+    {% for news in site.data.news limit:8 %}
+    <div class="columns mb-0">
+        <div class="column is-2">
+            <span class="tag news-time {% if news.highlight != nil %}
+            {{ site.data.meta.index.news_highlight_color }}
+            {% endif %}">
+                {{ news.time }}
+            </span>
+        </div>
+        <div class="column is-10">
+            {{ news.title | markdownify }}
         </div>
     </div>
+    {% endfor %}
 </div>
-{% if forloop.last != true %}
-<div class="is-divider" style="margin-top: 0.5rem; margin-bottom: 1.5rem;"></div>
-{% endif %}
-{% endfor %}
-
-<div class="is-divider" style="margin-top: 2rem; margin-bottom: 1.5rem;"></div>
-
-<h3 class="title">News and Updates</h3>
-            {% for news in site.data.news limit:20 %}
-            <div class="columns mb-0">
-                    <div class="column is-2">
-                        <span class="tag news-time {% if news.highlight != nil %}
-                        {{ site.data.meta.index.news_highlight_color}}
-                    {% endif %}">
-                                {{ news.time }}
-                        </span>
-                    </div>
-                    <div class="column is-10">
-                        {{ news.title | markdownify }}
-                    </div>
-                </div>
 
