@@ -6,7 +6,7 @@
 menu:
 - {name: 'About', file: ''}
 - {name: 'Research', file: 'research.html'}
-- {name: 'Blog', file: 'blog.html'}
+- {name: 'News', file: 'news.html'}
 
 social:
 - {name: 'mail', icon: 'fas fa-at', link: 'mailto:dubeyakshat07@gmail.com',
@@ -24,9 +24,8 @@ publication:
       - 'conference'
       - 'journal'
     topics:
-      - {name: 'All',            id: 'all',  description: ''}
-      - {name: "XAI",            id: 'xai',  description: '' }
-      - {name: 'Other',          id: 'misc', description: ''}
+      - {name:,            id: ,  description: ''}
+      
     default_img: "/assets/publications/placeholder.png"
     tag_list: 
       - {name: "paper",  icon: "far fa-file-pdf"}
