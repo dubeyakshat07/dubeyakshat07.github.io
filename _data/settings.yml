@@ -22,8 +22,9 @@ publication:
       - 'all'
       - 'workshop'
       - 'conference'
-      - 'journal'
-  
+    topics:
+      - {name: 'All',            id: 'all',  description: ''}
+
       
     default_img: "/assets/publications/placeholder.png"
     tag_list: 
