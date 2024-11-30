@@ -30,13 +30,13 @@ title: News
 
 <div class="is-divider" style="margin-top: 2rem; margin-bottom: 1.5rem;"></div>
 
-<h2>News</h2>
 <ol>
     {% assign sorted_news = site.data.news | sort: "highlight" %}
-    {% for row in sorted_news reversed %}
+    {% for row in sorted_news %}
     <li>
         <strong>{{ row.title }}</strong> <br>
         <em>{{ row.time }}</em>
     </li>
     {% endfor %}
 </ol>
+
