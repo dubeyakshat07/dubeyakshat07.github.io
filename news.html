@@ -30,13 +30,18 @@ title: News
 
 <div class="is-divider" style="margin-top: 2rem; margin-bottom: 1.5rem;"></div>
 
-<ol>
-    {% assign sorted_news = site.data.news | sort: "highlight" %}
-    {% for row in sorted_news %}
-    <li>
-        <strong>{{ row.title }}</strong> <br>
-        <em>{{ row.time }}</em>
-    </li>
-    {% endfor %}
-</ol>
+<h3 class="title">News and Updates</h3>
+            {% for news in site.data.news limit:20 %}
+            <div class="columns mb-0">
+                    <div class="column is-2">
+                        <span class="tag news-time {% if news.highlight != nil %}
+                        {{ site.data.meta.index.news_highlight_color}}
+                    {% endif %}">
+                                {{ news.time }}
+                        </span>
+                    </div>
+                    <div class="column is-10">
+                        {{ news.title | markdownify }}
+                    </div>
+                </div>
 
