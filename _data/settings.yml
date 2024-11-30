@@ -7,8 +7,8 @@ menu:
 - {name: 'About', file: ''}
 - {name: 'Research', file: 'research.html'}
 - {name: 'News', file: 'news.html'}
-- {name: 'CV', file:'CV.html'}
-- {name: 'Hobbies', file: "hobbies.html"}
+# - {name: 'CV', file:'CV.html'}
+# - {name: 'Hobbies', file: "hobbies.html"}
 
 social:
 - {name: 'mail', icon: 'fas fa-at', link: 'mailto:dubeyakshat07@gmail.com',
