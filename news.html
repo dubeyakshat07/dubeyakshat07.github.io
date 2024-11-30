@@ -5,7 +5,7 @@ pagination:
 title: Blog
 ---
 
-<nav class="pagination  is-small" role="navigation" aria-label="pagination" style="margin-top: -2.80rem">
+<nav class="pagination is-small" role="navigation" aria-label="pagination" style="margin-top: -2.80rem">
     <a class="pagination-previous" {% if paginator.previous_page != nil %}href="{{ paginator.previous_page_path }}"{% else %}disabled{% endif %}>Previous</a>
     <a class="pagination-next" {% if paginator.next_page != nil %}href="{{ paginator.next_page_path }}"{% else %}disabled{% endif %}>Next page</a>
 
@@ -28,6 +28,7 @@ title: Blog
 </nav>
 <div class="is-divider" style="margin-top: 0.45rem; margin-bottom: 1.5rem;"></div>
 
+<h2>Blog Posts</h2>
 {% for post in paginator.posts %}
 <div class="columns">
     <div class="column is-9">
@@ -50,3 +51,14 @@ title: Blog
 {% endif %}
 {% endfor %}
 
+<div class="is-divider" style="margin-top: 2rem; margin-bottom: 1.5rem;"></div>
+
+<h2>News</h2>
+<ul>
+    {% for row in site.data.news %}
+    <li>
+        <strong>{{ row.title }}</strong> - {{ row.date }}<br>
+        {{ row.description }}
+    </li>
+    {% endfor %}
+</ul>
