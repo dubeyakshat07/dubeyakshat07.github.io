@@ -28,7 +28,6 @@ title: News
 </nav>
 <div class="is-divider" style="margin-top: 0.45rem; margin-bottom: 1.5rem;"></div>
 
-<h2>News Updates</h2>
 {% for post in paginator.posts %}
 <div class="columns">
     <div class="column is-9">
@@ -59,8 +58,7 @@ title: News
     {% for row in sorted_news %}
     <li>
         <strong>{{ row.title }}</strong> <br>
-        <em>{{ row.time }}</em><br>
-        {{ row.highlight }}
+        <em>{{ row.time }}</em>
     </li>
     {% endfor %}
 </ol>
