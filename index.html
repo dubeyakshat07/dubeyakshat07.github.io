@@ -16,7 +16,7 @@ layout: page
             <h1 class="title">{{ site.data.meta.index.welcome_message }}</h1>
             {{ site.data.meta.index.personal_description | markdownify }}
             <h3 class="title">Recent News</h3>
-            {% for news in site.data.news limit:8 %}
+            {% for news in site.data.news limit:3 %}
             <div class="columns mb-0">
                     <div class="column is-2">
                         <span class="tag news-time {% if news.highlight != nil %}
