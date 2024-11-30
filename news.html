@@ -2,7 +2,7 @@
 layout: page
 pagination:
   enabled: true
-title: Blog
+title: News
 ---
 
 <nav class="pagination is-small" role="navigation" aria-label="pagination" style="margin-top: -2.80rem">
@@ -28,7 +28,7 @@ title: Blog
 </nav>
 <div class="is-divider" style="margin-top: 0.45rem; margin-bottom: 1.5rem;"></div>
 
-<h2>Blog Posts</h2>
+<h2>News Updates</h2>
 {% for post in paginator.posts %}
 <div class="columns">
     <div class="column is-9">
@@ -55,8 +55,8 @@ title: Blog
 
 <h2>News</h2>
 <ol>
-    {% assign sorted_news = site.data.news | sort: "highlight" | reverse %}
-    {% for row in sorted_news %}
+    {% assign sorted_news = site.data.news | sort: "highlight" %}
+    {% for row in sorted_news reversed %}
     <li>
         <strong>{{ row.title }}</strong> <br>
         <em>{{ row.time }}</em>
