@@ -7,7 +7,7 @@ menu:
 - {name: 'About', file: ''}
 - {name: 'Research', file: 'research.html'}
 - {name: 'News', file: 'news.html'}
-# - {name: 'CV', file: 'cv.html'}
+- {name: 'Fun and Hobbies', file: 'hobbies.html'}
 - {name: 'CV', file: "cv.html"}
 
 social:
