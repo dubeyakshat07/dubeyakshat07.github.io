@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Akshat Dubey | Publication</title>
+    <meta name="description" content="">
+
+    <meta property="og:title" content="Publication">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dubeyakshat07.github.io/akshat/research.html">
+    <meta property="og:description" content="">
+    <meta property="og:site_name" content="">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://dubeyakshat07.github.io/akshat/research.html">
+    <meta name="twitter:title" content="Publication">
+    <meta name="twitter:description" content="">
+
+    <!-- TODO: Adding page thumbnail for social meida -->
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://dubeyakshat07.github.io/akshat//research.html">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="https://dubeyakshat07.github.io/akshat/assets/css/bulma.css">
+    <link rel="stylesheet" href="https://dubeyakshat07.github.io/akshat/assets/css/syntax/manni.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        TeX: {
+          equationNumbers: {
+            autoNumber: "AMS"
+          }
+        },
+        tex2jax: {
+          inlineMath: [ ['$','$'] ],
+          displayMath: [ ['$$','$$'] ],
+          processEscapes: true,
+        }
+      });
+    </script>
+    
+    <script type="text/javascript"
+            src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    
+    <!-- Add link to h2 ... h6 -->
+    <!-- Ref: https://ben.balter.com/2014/03/13/pages-anchor-links/ -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>
+      $(function() {
+        return $("h2, h3, h4, h5, h6").each(function(i, el) {
+          var $el, icon, id;
+          $el = $(el);
+          id = $el.attr('id');
+          icon = '<i class="fas fa-link"></i>';
+          if (id) {
+            return $el.append($("<a />").addClass("header-link").attr("href", "#" + id).html(icon));
+          }
+        });
+      });
+    </script>
+    
+    <!-- Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '');
+</script>
+
+
+</head>
+
+<body>
+
+    <div class="section">            
+        <div class="container">
+            
+                <nav class="navbar" role="navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item site-title" href="https://dubeyakshat07.github.io/akshat">
+            <strong>Akshat Dubey</strong>
+        </a>
+
+        <div class="navbar-burger" data-target="navbar-main"
+            onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <div class="navbar-menu" id="navbar-main">
+        <div class="navbar-end">
+            <!-- navbar items -->
+            
+            <a href="https://dubeyakshat07.github.io/akshat" class="navbar-item">About</a>
+            
+            <a href="https://dubeyakshat07.github.io/akshat/research.html" class="navbar-item">Research</a>
+            
+            <a href="https://dubeyakshat07.github.io/akshat/news.html" class="navbar-item">News</a>
+            
+            <div class="navbar-item">
+                
+                <a href="mailto:dubeyakshat07@gmail.com" class="button is-white">
+                    <i class="fas fa-at fa-w-14 fa-lg" aria-hidden="true"></i>
+                </a>
+                
+                <a href="https://github.com/dubeyakshat07" class="button is-white">
+                    <i class="fab fa-github fa-w-14 fa-lg" aria-hidden="true"></i>
+                </a>
+                
+                <a href="https://twitter.com/AKSHATD00099862" class="button is-white">
+                    <i class="fab fa-twitter-square fa-w-14 fa-lg" aria-hidden="true"></i>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="is-divider" style="margin-top: 0.5rem; margin-bottom: 3rem;"></div>  
+            
+            <div class="container">
+  <!-- Used for switching between tabs -->
+<style>
+    .tab-pane {
+        display: none
+    }
+    .tab-content .is-active {
+        display: initial
+    }
+</style>
+
+<script>
+    window.onload = () => {
+
+        // Tabs Start
+        document.querySelectorAll('.tabs').forEach((tab) => {
+            tab.querySelectorAll('li').forEach((li) => {
+                li.onclick = () => {
+                    tab.querySelector('li.is-active').classList.remove('is-active')
+                    li.classList.add('is-active')
+                    tab.nextElementSibling.querySelector('.tab-pane.is-active').classList.remove('is-active')
+                    tab.nextElementSibling.querySelector('.tab-pane#' + li.firstElementChild.getAttribute('id'))
+                        .classList.add("is-active")
+                }
+            })
+        })
+
+    }
+</script>
+
+<!-- The tab -->
+<div class="tabs" style="margin-top: -3rem">
+    <ul style="margin: 0rem;">
+        
+        <li class="is-active" >
+            <a id="all">
+                <span>All</span>
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+<!-- The tab content -->
+<div class="tab-content">
+    
+    <div class="tab-pane is-active"
+        id="all">
+        
+        
+        <!-- <p class="publication-misc"></p> -->
+        
+        
+        
+        
+        <div class="columns">
+            <div class="column is-4">
+                <figure class="image is-16by9"><img src="https://www.researchgate.net/publication/385881451/figure/fig2/AS:11431281290832981@1731781311682/Overview-of-the-Storytelling-XAI-framework-applied-in-the-medical-imaging-domain-The.png"></figure>
+            </div>
+            <div class="column is-8">
+                <div class="content">
+                    <h3 class="publication-title">AI Readiness in Healthcare through Storytelling XAI</h3>
+                    <p class="publication-name">Dubey, A., Yang, Z., &amp; Hattab, G.
+</p>
+                    <p class="publication-misc">
+                        
+  
+                        ECAI First Workshop on Explainable Artificial Intelligence for the Medical Domain (EXPLIMED)-2024
+ . 
+                    </p>
+                    
+                    <div class="field is-grouped is-grouped-multiline">
+                        
+                        
+                        <div class="control">
+                            <div class="tags has-addons">
+                                <span class="tag"><i class="far fa-file-pdf"></i></span>
+                                <a class="tag" href="https://ceur-ws.org/Vol-3831/paper12.pdf">Paper</a>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="is-divider" style="margin-top: 0.5rem; margin-bottom: 1.5rem;"></div>
+        
+        
+        
+        
+        
+        <div class="columns">
+            <div class="column is-4">
+                <figure class="image is-16by9"><img src="https://www.cell.com/cms/10.1016/j.isci.2024.110603/asset/5c60dbcd-9fc5-4999-83d8-74c726779ca2/main.assets/gr10_lrg.jpg"></figure>
+            </div>
+            <div class="column is-8">
+                <div class="content">
+                    <h3 class="publication-title">A nested model for AI design and validation</h3>
+                    <p class="publication-name">Dubey, A., Yang, Z., &amp; Hattab, G.
+</p>
+                    <p class="publication-misc">
+                        
+  
+                        Cell Press iScience Journal, 27(9)
+ . 
+                    </p>
+                    
+                    <div class="field is-grouped is-grouped-multiline">
+                        
+                        
+                        <div class="control">
+                            <div class="tags has-addons">
+                                <span class="tag"><i class="far fa-file-pdf"></i></span>
+                                <a class="tag" href="https://www.cell.com/iscience/fulltext/S2589-0042(24)01828-5">Paper</a>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="is-divider" style="margin-top: 0.5rem; margin-bottom: 1.5rem;"></div>
+        
+        
+        
+        
+        
+        <div class="columns">
+            <div class="column is-4">
+                <figure class="image is-16by9"><img src="https://katbailey.github.io/images/kernel_cookbook.png"></figure>
+            </div>
+            <div class="column is-8">
+                <div class="content">
+                    <h3 class="publication-title">Pri-GP: Prior-Aware Distributed Gaussian Process Regression</h3>
+                    <p class="publication-name">Yang, Z., Dai, X., Dubey, A., Hirche, S., &amp; Hattab, G.
+</p>
+                    <p class="publication-misc">
+                        
+  
+                        
+Technical University of Munich Pre-Print Server
+ . 
+                    </p>
+                    
+                    <div class="field is-grouped is-grouped-multiline">
+                        
+                        
+                        <div class="control">
+                            <div class="tags has-addons">
+                                <span class="tag"><i class="far fa-file-pdf"></i></span>
+                                <a class="tag" href="https://mediatum.ub.tum.de/doc/1734729/document.pdf">Paper</a>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="is-divider" style="margin-top: 0.5rem; margin-bottom: 1.5rem;"></div>
+        
+        
+        
+        
+        
+        <div class="columns">
+            <div class="column is-4">
+                <figure class="image is-16by9"><img src="https://katbailey.github.io/images/kernel_cookbook.png"></figure>
+            </div>
+            <div class="column is-8">
+                <div class="content">
+                    <h3 class="publication-title">Whom to Trust? Elective Learning for Distributed Gaussian Process Regression</h3>
+                    <p class="publication-name">Yang, Z., Dai, X., Dubey, A., Hirche, S., &amp; Hattab, G.
+</p>
+                    <p class="publication-misc">
+                        
+  
+                        In Proceedings of the 23rd International Conference on Autonomous Agents and Multiagent Systems (AAMAS ‘24)
+ . 
+                    </p>
+                    
+                    <div class="field is-grouped is-grouped-multiline">
+                        
+                        
+                        <div class="control">
+                            <div class="tags has-addons">
+                                <span class="tag"><i class="far fa-file-pdf"></i></span>
+                                <a class="tag" href="https://www.ifaamas.org/Proceedings/aamas2024/pdfs/p2020.pdf">Paper</a>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="is-divider" style="margin-top: 0.5rem; margin-bottom: 1.5rem;"></div>
+        
+        
+        
+        
+        
+        <div class="columns">
+            <div class="column is-4">
+                <figure class="image is-16by9"><img src="https://digi.uga.edu/wp-content/uploads/sites/9/2018/11/network-Graphs-300x274.png"></figure>
+            </div>
+            <div class="column is-8">
+                <div class="content">
+                    <h3 class="publication-title">Detecting bots in social-networks using node and structural embeddings</h3>
+                    <p class="publication-name">Dehghan, A., Siuta, K., Skorupka, A., Dubey, A., Betlen, A., Miller, D., Xu, W., Kamiński, B. and Prałat, P.
+</p>
+                    <p class="publication-misc">
+                        
+  
+                        Journal of Big Data 10, no. 1 (2023): 119
+ . 
+                    </p>
+                    
+                    <div class="field is-grouped is-grouped-multiline">
+                        
+                        
+                        <div class="control">
+                            <div class="tags has-addons">
+                                <span class="tag"><i class="far fa-file-pdf"></i></span>
+                                <a class="tag" href="https://link.springer.com/article/10.1186/s40537-023-00796-3">Paper</a>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="is-divider" style="margin-top: 0.5rem; margin-bottom: 1.5rem;"></div>
+        
+        
+        
+        
+        
+        <div class="columns">
+            <div class="column is-4">
+                <figure class="image is-16by9"><img src="https://roc.ai/wp-content/uploads/2018/11/howfrworks-1080x675.png"></figure>
+            </div>
+            <div class="column is-8">
+                <div class="content">
+                    <h3 class="publication-title">SCL-FExR: supervised contrastive learning approach for facial expression Recognition</h3>
+                    <p class="publication-name">Kshitiza Vasudeva, Akshat Dubey, Saravanan Chandran
+</p>
+                    <p class="publication-misc">
+                        
+  
+                        Multimedia Tools and Applications, 1-21
+ . 
+                    </p>
+                    
+                    <div class="field is-grouped is-grouped-multiline">
+                        
+                        
+                        <div class="control">
+                            <div class="tags has-addons">
+                                <span class="tag"><i class="far fa-file-pdf"></i></span>
+                                <a class="tag" href="https://www.researchgate.net/profile/Akshat-Dubey-7/publication/368831652_Supervised_Contrastive_Learning_Approach_for_Facial_Expression_Recognition/links/64c223d869f07e6253898ec5/Supervised-Contrastive-Learning-Approach-for-Facial-Expression-Recognition.pdf">Paper</a>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+    </div>
+    
+</div>
+</div>
+
+        </div>
+    </div>
+    
+<footer class="footer">
+    <div class="content has-text-centered is-size-7">
+        <p>Created &amp; maintained by <a href="https://www.github.com/dubeyakshat07">Akshat Dubey</a>, with <a href="https://jekyllrb.com/">jekyll</a> and <a href="http://bulma.io/">bulma</a>. The website content is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.</p>
+
+    </div>
+</footer>
+</body>
+
+</html>
