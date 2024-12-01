@@ -1,0 +1,24 @@
+
+---
+layout: page
+title: My Hobbies
+---
+
+<div class="columns is-multiline">
+    {% assign hobbies = site.data.hobbies %}
+    {% for hobby in hobbies %}
+    <div class="column is-4">
+        <div class="card">
+            <div class="card-image">
+                <figure class="image">
+                    <img src="{{ site.url }}{{ site.baseurl }}/_data/hobbies/{{ hobby.image }}" alt="{{ hobby.caption }}">
+                </figure>
+            </div>
+            <div class="card-content">
+                <p class="subtitle is-6">{{ hobby.caption }}</p>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
