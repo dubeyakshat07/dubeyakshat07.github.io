@@ -1,15 +1,30 @@
-name: Jekyll Deploy
+name: Deploy Jekyll site
 
-on: [push]
+on:
+  push:
+    branches:
+      - main  # Replace with your deployment branch
 
-jobs: 
-  build_and_deploy:
+jobs:
+  build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v1
-      - name: Build & Deploy to GitHub Pages
-        env: 
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
-          GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
-        uses: lolipopshock/jekyll-deploy-gh-pages@98db2f11b98db4d2231b04e5a8caa80744c27947
+    - name: Checkout Code
+      uses: actions/checkout@v3
+
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 3.0  # Specify the Ruby version used by your project
+
+    - name: Install Bundler 2
+      run: gem install bundler
+
+    - name: Install Dependencies
+      run: bundle install
+
+    - name: Build and Deploy
+      uses: lolipopshock/jekyll-deploy-gh-pages@98db2f11b98db4d2231b04e5a8caa80744c27947
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
