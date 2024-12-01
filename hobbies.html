@@ -2,21 +2,23 @@
 layout: page
 title: My Hobbies
 ---
-<h2>All pictures are clicked by me. Copyright intended. Haha. :)</h2>
-<div class="columns is-multiline">
+
+<head>
+  <link rel="stylesheet" href="{{ site.baseurl }}/hobbies.css">
+</head>
+
+<h2>All pictures are clicked by me. Copyright intended. :)</h2>
+
+<div class="hobbies-grid">
     {% assign hobbies = site.data.hobbies %}
     {% for hobby in hobbies %}
-    <div class="column is-4">
-        <div class="card">
-            <div class="card-image">
-                <figure class="image">
-                    <!-- Image path relative to the root folder -->
-                    <img src="{{ site.url }}{{ site.baseurl }}/{{ hobby.image }}" alt="{{ hobby.caption }}">
-                </figure>
-            </div>
-            <div class="card-content">
-                <p class="subtitle is-6">{{ hobby.caption }}</p>
-            </div>
+    <div class="hobby-item">
+        <figure class="image">
+            <!-- Image path relative to the root folder -->
+            <img src="{{ site.url }}{{ site.baseurl }}/{{ hobby.image }}" alt="{{ hobby.caption }}">
+        </figure>
+        <div class="caption">
+            <p>{{ hobby.caption }}</p>
         </div>
     </div>
     {% endfor %}
