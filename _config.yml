@@ -16,7 +16,7 @@
 title: Akshat Dubey
 description: >
   Avalanche is a research portfolio website template based on Jekyll and bulma.
-baseurl: "dubeyakshat07@github.io" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dubeyakshat07.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
