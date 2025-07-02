@@ -8,17 +8,25 @@ index:
   personal_description: >
     I'm **Akshat Dubey**, a **Research Associate** at the [Robert Koch Institute](https://www.rki.de) and a **PhD candidate** at [Freie Universität Berlin](https://www.fu-berlin.de).  
     My research centers on **Explainable AI (XAI)**, with a strong focus on:
-
+    <br>
     - 🔍 **Uncertainty Quantification in XAI** – designing embedding principled confidence estimates methods to assess and convey explanation confidence in applications like healthcare.
+    <br>
     - 🏥 **Healthcare XAI** – integrating explainable, uncertainty-aware ML into the workflows.
+    <br>
     - 🧠 **Persona-Adaptable LLM Strategies** – methods to adapt large language models to user perspectives..
+    <br>
     - ⚖️ **Regulatory-Compliant AI Design** – implementing frameworks (e.g. nested model) aligned with EU AI regulations.
+    <br>
     - 🎲 **Distributed Gaussian Process Learning** – elective/trust-based GP frameworks for decentralized decision-making :contentReference[oaicite:2]{index=2}.
+    <br>
     - 🧠 **LLMs with LoRA/QLoRA & Quantization** – deploying quantized (4-bit NF4/double‑quant) LLMs fine‑tuned with LoRA adapters to enable large-model utility on constrained hardware :contentReference[oaicite:1]{index=1}.  
+    <br>
     - 🐳 **Docker & Orchestration Platforms** – automating reproducible ML pipelines for model training, deployment, and monitoring at scale.  
+    <br>
     - 📈 **Mixed-Integer Linear Programming (MILP)** – optimizing structure of surrogate interpretable graphs from decision forests to maximize explainability via visual graphs.  
+    <br>
     - 🤝 **Graph Neural Networks (GNNs)**, NLP, and Interactive Visualization – integrating human–computer interaction for trust‑building and exploration of AI decisions.
-
+    <br>
     I am a "math nerd" who is also a "computational thinker" & "algorithm enthusiast", working under the supervision of **Dr habil. Georges Hattab**. Let’s collaborate—connect on [LinkedIn](https://www.linkedin.com/in/Akshat0007).
   footnote: >
     Site crafted by [Akshat Dubey](https://github.com/dubeyakshat07) using [Jekyll](https://jekyllrb.com/) & [Bulma](http://bulma.io/).  
