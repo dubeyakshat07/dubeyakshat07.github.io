@@ -39,7 +39,7 @@ layout: page
       <!-- Recent News Section -->
       <div class="mt-5">
         <h3 class="title is-5">🗞️ Recent News</h3>
-        {% for news in site.data.news limit:3 %}
+        {% for news in site.data.news limit:5 %}
         <div class="mb-3">
           <span class="tag is-light {% if news.highlight != nil %}{{ site.data.meta.index.news_highlight_color }}{% endif %}">
             {{ news.time }}
