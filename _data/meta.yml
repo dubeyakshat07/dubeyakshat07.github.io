@@ -1,36 +1,61 @@
 index:
   welcome_message: >
-    Welcome! Dive into pioneering research on trustworthy, interpretable AI systems.
+    🌟 Welcome! I'm building **trustworthy**, **interpretable**, and **regulatory-aligned AI systems**—pushing the frontier of responsible machine learning research.
+
   personal_photo: "/assets/profile.jpeg"
-  # image_credit: >
-  #   Photo by [Photographer Name] / CC-BY
+  image_credit: >
+    This is me. :)
+
   news_highlight_color: 'is-info'
+
   personal_description: >
-    I'm **Akshat Dubey**, a **Research Associate** at the [Robert Koch Institute](https://www.rki.de) and a **PhD candidate** at [Freie Universität Berlin](https://www.fu-berlin.de).  
-    My research centers on **Explainable AI (XAI)**, with a strong focus on:
-    <br>
-    <li> 🔍 **Uncertainty Quantification in XAI** – designing embedding principled confidence estimates methods to assess and convey explanation confidence in applications like healthcare.
-    <br>
-    <li>🏥 **Healthcare XAI** – integrating explainable, uncertainty-aware ML into the workflows.
-    <br>
-    <li> 🧠 **Persona-Adaptable LLM Strategies** – methods to adapt large language models to user perspectives.
-    <br>
-    <li> ⚖️ **Regulatory-Compliant AI Design** – implementing frameworks (Nested Model for AI Design and Validation) aligned with EU AI regulations.
-    <br>
-    <li> 🎲 **Distributed Gaussian Process Learning** – elective/trust-based GP frameworks for decentralized decision-making.
-    <br>
-    <li> 🧠 **LLMs with LoRA/QLoRA & Quantization** – deploying quantized LLMs fine‑tuned with LoRA adapters to enable large-model utility on constrained hardware.  
-    <br>
-    <li> 🐳 **Docker & Orchestration Platforms** – automating reproducible ML pipelines for model training, deployment, and monitoring at scale.  
-    <br>
-    <li> 📈 **Mixed-Integer Linear Programming (MILP)** – optimizing structure of surrogate interpretable graphs from decision forests to maximize explainability via visual graphs.  
-    <br>
-    <li> 🤝 **Graph Neural Networks (GNNs)**, NLP, and Interactive Visualization – integrating human–computer interaction for trust‑building and exploration of AI decisions.
-    <br>
-    <br>
     <p>
-    I am a "math nerd" who is also a "computational thinker" & "algorithm enthusiast", working under the supervision of **Dr habil. Georges Hattab**. Let’s collaborate—connect on [LinkedIn](https://www.linkedin.com/in/Akshat0007).
+      Hello! I’m <strong>Akshat Dubey</strong>, a <strong>Research Associate</strong> at the <a href="https://www.rki.de" target="_blank">Robert Koch Institute</a> and a <strong>PhD candidate</strong> at <a href="https://www.fu-berlin.de" target="_blank">Freie Universität Berlin</a>, working under the supervision of <strong>Dr habil. Georges Hattab</strong>.
     </p>
+
+    <p>
+      My research lies at the intersection of <strong>Explainable Artificial Intelligence (XAI)</strong>, NLP, and human-centered AI. I focus on building interpretable, transparent, and efficient ML systems for critical domains like healthcare. My work draws from probabilistic modeling, optimization, and large language models, with current themes including:
+    </p>
+
+    <ul style="list-style: none; padding-left: 0;">
+      <li>🔍 <strong>Uncertainty Quantification in XAI</strong>  
+        <br><em>Designing principled methods to estimate and communicate explanation confidence—especially in high-stakes domains.</em></li><br>
+
+      <li>🏥 <strong>Healthcare-Integrated Explainability</strong>  
+        <br><em>Embedding explainable and uncertainty-aware models into real-world clinical workflows to support informed decision-making.</em></li><br>
+
+      <li>🧠 <strong>Persona-Adaptable LLM Strategies</strong>  
+        <br><em>Tailoring large language models to align with users’ cognitive styles and mental models—enabling intuitive and adaptive interaction.</em></li><br>
+
+      <li>⚖️ <strong>Regulatory-Compliant AI Design</strong>  
+        <br><em>Implementing the “Nested Model for AI Design & Validation” to meet the EU AI Act’s transparency and safety requirements.</em></li><br>
+
+      <li>🎲 <strong>Distributed Gaussian Process Learning</strong>  
+        <br><em>Developing decentralized, trust-aware GP frameworks for collaborative and privacy-preserving learning.</em></li><br>
+
+      <li>🧠 <strong>LLMs with LoRA/QLoRA & Quantization</strong>  
+        <br><em>Enabling efficient, on-device large-model inference using quantized, low-rank-adapted LLMs for constrained environments.</em></li><br>
+
+      <li>🐳 <strong>Reproducible ML via Docker & Orchestration</strong>  
+        <br><em>Building automated, scalable pipelines for training, deploying, and monitoring ML models with full reproducibility.</em></li><br>
+
+      <li>📈 <strong>MILP for Interpretable Graph Design</strong>  
+        <br><em>Using mixed-integer linear programming to optimize surrogate graph structures from decision forests for maximum interpretability.</em></li><br>
+
+      <li>🤝 <strong>Human-in-the-Loop AI: GNNs, NLP, and Visual Analytics</strong>  
+        <br><em>Fusing graph learning, language understanding, and interaction design to make AI decisions transparent, explorable, and trustworthy.</em></li>
+    </ul>
+
+    <p>
+      Outside of research, I’m a lifelong learner, “math nerd,” and “algorithm enthusiast” passionate about systems that empower humans through explainability. I enjoy building bridges between theory and practice.
+    </p>
+
+    <p>
+      Let’s connect and collaborate—reach out on <a href="https://www.linkedin.com/in/Akshat0007" target="_blank"><strong>LinkedIn</strong></a>.
+    </p>
+
   footnote: >
-    Site crafted by [Akshat Dubey](https://github.com/dubeyakshat07) using [Jekyll](https://jekyllrb.com/) & [Bulma](http://bulma.io/).  
-    Content licensed [CC BY‑NC‑SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+    <small>
+      Site crafted by <a href="https://github.com/dubeyakshat07" target="_blank">Akshat Dubey</a> using <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://bulma.io/" target="_blank">Bulma</a>.  
+      Content licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>.
+    </small>
