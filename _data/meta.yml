@@ -1,6 +1,6 @@
 index:
   welcome_message: >
-    🌟 Welcome! I'm building **trustworthy**, **interpretable**, and **regulatory-aligned AI systems**—pushing the frontier of responsible machine learning research.
+    Welcome! I'm building interpretable & explainable AI.
 
   personal_photo: "/assets/profile.jpeg"
   image_credit: >
@@ -10,7 +10,7 @@ index:
 
   personal_description: >
     <p>
-      Hello! I’m <strong>Akshat Dubey</strong>, a <strong>Research Associate</strong> at the <a href="https://www.rki.de" target="_blank">Robert Koch Institute</a> and a <strong>PhD candidate</strong> at <a href="https://www.fu-berlin.de" target="_blank">Freie Universität Berlin</a>, working under the supervision of <strong>Dr habil. Georges Hattab</strong>.
+      Hello! I’m <strong>Akshat Dubey</strong>, a <strong>Research Associate</strong> at the <a href="https://www.rki.de" target="_blank">Robert Koch Institute</a> and a <strong>PhD candidate</strong> at <a href="https://www.fu-berlin.de" target="_blank">Freie Universität Berlin</a>, working under the supervision of <strong>Dr. habil. Georges Hattab</strong>.
     </p>
 
     <p>
@@ -21,7 +21,7 @@ index:
       <li>🔍 <strong>Uncertainty Quantification in XAI</strong>  
         <br><em>Designing principled methods to estimate and communicate explanation confidence—especially in high-stakes domains.</em></li><br>
 
-      <li>🏥 <strong>Healthcare-Integrated Explainability</strong>  
+      <li>🏥 <strong>XAI for Healthcare</strong>  
         <br><em>Embedding explainable and uncertainty-aware models into real-world clinical workflows to support informed decision-making.</em></li><br>
 
       <li>🧠 <strong>Persona-Adaptable LLM Strategies</strong>  
