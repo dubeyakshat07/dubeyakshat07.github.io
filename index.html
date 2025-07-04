@@ -9,7 +9,7 @@ layout: page
 
   <!-- SEO Meta Tags -->
   <meta name="description" content="Explore Akshat Dubey's AI research portfolio, with a focus on explainable AI (XAI), regulatory-compliant workflows, and healthcare applications.">
-  <meta name="keywords" content="Akshat Dubey, RKI, Berlin, Germany, Robert Koch Institute, Freie Unviersität Berlin, Free University of Berlin, explainable AI, XAI, AI research, healthcare AI, trustworthy AI systems, interpretable ML, AI regulation">
+  <meta name="keywords" content="Akshat Dubey, RKI, Berlin, Germany, Robert Koch Institute, Freie Universität Berlin, Free University of Berlin, explainable AI, XAI, AI research, healthcare AI, trustworthy AI systems, interpretable ML, AI regulation">
   <meta name="author" content="Akshat Dubey">
 
   <!-- Open Graph / Facebook -->
@@ -27,32 +27,37 @@ layout: page
 </head>
 
 <div class="columns">
+  <!-- LEFT COLUMN -->
   <div class="column is-4">
     <div class="content">
+      <!-- Profile Image -->
       <figure class="image pb-0 mb-0" style="max-width: 300px; margin-left: 0">
         <img src="{{ site.url }}{{ site.baseurl }}/{{ site.data.meta.index.personal_photo }}" alt="Akshat Dubey Photo">
       </figure>
       {{ site.data.meta.index.image_credit | markdownify }}
+
+      <!-- Recent News Section -->
+      <div class="mt-5">
+        <h3 class="title is-5">🗞️ Recent News</h3>
+        {% for news in site.data.news limit:3 %}
+        <div class="mb-3">
+          <span class="tag is-light {% if news.highlight != nil %}{{ site.data.meta.index.news_highlight_color }}{% endif %}">
+            {{ news.time }}
+          </span>
+          <div class="mt-1">
+            {{ news.title | markdownify }}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
     </div>
   </div>
+
+  <!-- RIGHT COLUMN -->
   <div class="column is-8">
     <div class="content">
       <h1 class="title">{{ site.data.meta.index.welcome_message }}</h1>
       {{ site.data.meta.index.personal_description | markdownify }}
-
-      <h3 class="title">Recent News</h3>
-      {% for news in site.data.news limit:3 %}
-      <div class="columns mb-0">
-        <div class="column is-2">
-          <span class="tag news-time {% if news.highlight != nil %}{{ site.data.meta.index.news_highlight_color }}{% endif %}">
-            {{ news.time }}
-          </span>
-        </div>
-        <div class="column is-10">
-          {{ news.title | markdownify }}
-        </div>
-      </div>
-      {% endfor %}
     </div>
   </div>
 </div>
