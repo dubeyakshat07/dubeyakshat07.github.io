@@ -10,18 +10,19 @@ title: My Hobbies
 <h2>All pictures are clicked by me. Copyright intended. :)</h2>
 
 <div class="hobbies-grid">
-{% for hobby in hobbies %}
-  <div class="hobby-item">
-    <figure class="image">
-      {% if hobby.image contains "http" %}
-        <img src="{{ hobby.image }}" alt="{{ hobby.caption }}">
-      {% else %}
-        <img src="{{ site.url }}{{ site.baseurl }}/{{ hobby.image }}" alt="{{ hobby.caption }}">
-      {% endif %}
-    </figure>
-    <div class="caption">
-      <p>{{ hobby.caption }}</p>
+    {% assign hobbies = site.data.hobbies %}
+    {% for hobby in hobbies %}
+    <div class="hobby-item">
+        <figure class="image">
+            {% if hobby.image contains "http" %}
+                <img src="{{ hobby.image }}" alt="{{ hobby.caption }}">
+            {% else %}
+                <img src="{{ site.url }}{{ site.baseurl }}/{{ hobby.image }}" alt="{{ hobby.caption }}">
+            {% endif %}
+        </figure>
+        <div class="caption">
+            <p>{{ hobby.caption }}</p>
+        </div>
     </div>
-  </div>
-{% endfor %}
+    {% endfor %}
 </div>
